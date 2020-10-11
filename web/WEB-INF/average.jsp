@@ -13,9 +13,14 @@
     </head>
     <body>
         <h2>Average Numbers</h2>
-        <form action=average" method="get">
+        <form action="average" method="get">
             Enter a number: <input type="number" name="number">
             <input type="submit" value="Submit">
+        </form>
+        
+        <form action="average" method="get">
+            <input type="submit" value="reset">
+            <input type="hidden" name="action" value="reset">
         </form>
         
         Average: ${average}
